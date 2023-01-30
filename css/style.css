@@ -10,6 +10,10 @@
     background-color: blueviolet;
     min-height: 50px;
     display: flex;
+   
+}
+
+.top{
     justify-content: space-between;
     align-items: center;   
 }
@@ -100,6 +104,8 @@
 
 .description{
     width: calc(100% / 3);
+    height: 200px;
+    background-color: navy;
     
 }
 
@@ -111,3 +117,21 @@
     border: 1px solid black;
 }
 
+.info_collab{
+    background-color: yellow;
+    height: 300px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text_info{
+    background-color: yellowgreen;
+    height: 100px;
+    width: 500px;
+}
+
+.button{
+    background-color: rgb(106, 0, 255);
+    height: 100px;
+    width: 300px;
+}
