@@ -8,7 +8,7 @@
 
 .big_container{
     background-color: blueviolet;
-    height: 50px;
+    min-height: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;   
@@ -89,3 +89,25 @@
 .little{
     width: 100%;
 }
+
+.list{
+    background-color: hotpink;
+    height: 100px;
+    width: calc(100% / 3);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.description{
+    width: calc(100% / 3);
+    
+}
+
+
+.collab_pic{
+    width: 50%;
+    background-color: aqua;
+    height: 100%;
+    border: 1px solid black;
+}
+
