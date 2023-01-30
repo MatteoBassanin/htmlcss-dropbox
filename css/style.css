@@ -20,10 +20,8 @@
     width: 100px;
 }
 
-.background_container{
-    
+.background_container{  
     background-color: yellow;
-    
 }
 
 .mid_container{
@@ -45,4 +43,40 @@
     width: 60%;
     height: 200px;
     background-color: green;
+}
+
+.container{
+    margin: auto;
+    max-width: 70%;
+    min-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.busines{
+    background-color: cadetblue;
+}
+
+.col{
+    background-color: red;
+    min-height: 100px;
+    width: calc(100% / 3 - 10px);
+    border: 1px solid black;
+    margin: 10px 5px;
+}
+
+.row{
+    background-color: red;
+    height: 100px;
+    width: calc(100% - 10px);
+    border: 1px solid black;
+    margin: 10px 5px;
+}
+
+
+.partner{
+    background-color: blue;
+    justify-content: space-between;
+    align-items: center;   
 }
