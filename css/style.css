@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* debug */
+
+.big_container{
+    background-color: blueviolet;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+
+.top-left,.top-right{
+    background-color: brown;
+    height: 30px;
+    width: 100px;
+}
