@@ -4,19 +4,81 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: sans-serif;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.centered{
+    align-items: center
+}
+
+.center_space{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 50;
+    background-color: white;
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+.logo i{
+    color: blue;
+}
+
+.logo a{
+    font-weight: bolder;
+    color: black;
+}
+
+.link a{
+    color: black;
+    font-size: 12px;
+    margin: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+main{
+    padding-top: 50px;
+}
+
+.button_blue a{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+}
+
+h1{
+    font-size: 54px;
+}
 /* debug */
 
 .big_container{
     background-color: blueviolet;
-    min-height: 50px;
-   
+    min-height: 50px;  
 }
 
-.top-left,.top-right{
+/* .top-right{
     background-color: brown;
     height: 30px;
     width: 100px;
-}
+} */
 
 .background_container{  
     background-color: yellow;
@@ -44,20 +106,6 @@
     margin: auto;
     max-width: 70%;
     min-height: 400px;
-}
-
-.flex{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.centered{
-    align-items: center
-}
-
-.center_space{
-    align-items: center;
-    justify-content: space-between;
 }
 
 .busines{
@@ -116,18 +164,19 @@
 .info_collab{
     background-color: yellow;
     height: 300px;
+    
 }
 
 .text_info{
     background-color: yellowgreen;
     height: 100px;
-    width: 500px;
+    width: 350px;
 }
 
 .button{
     background-color: rgb(106, 0, 255);
     height: 100px;
-    width: 300px;
+    width: 200px;
 }
 
 .faq{
