@@ -51,7 +51,7 @@
     min-height: 400px;
     display: flex;
     flex-wrap: wrap;
-    align-items: stretch;
+    
 }
 
 .busines{
@@ -79,4 +79,13 @@
     background-color: blue;
     justify-content: space-between;
     align-items: center;   
+}
+
+.operations{
+    align-items: center;
+    background-color: gray;
+}
+
+.little{
+    width: 100%;
 }
