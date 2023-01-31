@@ -64,6 +64,13 @@ a{
     padding-bottom: 100px;
 }
 
+/* .Business_plan{
+    padding-top: 50px;
+} */
+
+section{
+    padding-top: 50px;
+}
 
 main{
     padding-top: 50px;
@@ -89,7 +96,8 @@ main{
 }
 
 h1{
-    font-size: 54px;
+    font-size: 63px;
+    text-align: center;
 }
 
 .text p {
@@ -97,7 +105,7 @@ h1{
 }
 
 .picture img{
-    width: 100%;
+    width: 90%;
 }
 
 .circle{
@@ -123,6 +131,16 @@ h1{
     line-height: 30px;
     height: 30px;
     border-bottom: 1px solid black;
+}
+
+.col{  
+    /* min-height: 100px; */
+    width: calc(100% / 3 - 10px);
+    margin: 10px 5px;
+}
+
+.upper{
+    border: 1px solid black;
 }
 
 .beginning,.info_plan,.action,.benefits{
@@ -231,7 +249,8 @@ footer{
 .mid_container{
     max-width: 80%;
     margin: auto;
-    min-height: 500px;
+    /* min-height: 500px; */
+    padding-top: 50px;
 }
 
 .text{
@@ -250,12 +269,7 @@ footer{
     min-height: 700px;
 }
 
-.col{  
-    min-height: 100px;
-    width: calc(100% / 3 - 10px);
-    border: 1px solid black;
-    margin: 10px 5px;
-}
+
 
 .row{
     height: 100px;
