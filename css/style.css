@@ -218,6 +218,7 @@ h1{
 
 .collab_pic img{
     width: 50%;
+    filter:invert(1)
 }
 
 #green{
