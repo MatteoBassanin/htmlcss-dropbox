@@ -166,6 +166,21 @@ h1{
 .yellow{
     background-color: yellow;
 }
+
+.question{
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+.bottom_col li a,.language{
+    color: white;
+}
+
+.First_bold{
+    font-weight: bolder;
+}
+
+
 /* debug */
 
 .big_container{
@@ -177,13 +192,6 @@ h1{
     width: 60%;
 } 
 
-/* .top-right{
-    background-color: brown;
-    height: 30px;
-    width: 100px;
-} */
-
-
 .mid_container{
     max-width: 80%;
     margin: auto;
@@ -192,14 +200,12 @@ h1{
 
 .text{
     width: 30%;
-    height: 200px;
-    
+    height: 200px;   
 }
 
 .picture{
     width: 70%;
-    height: 200px;
-    
+    height: 200px;  
 }
 
 .container{
@@ -266,13 +272,12 @@ h1{
 }
 
 .info_collab{
-    background-color: yellow;
+    ;
     height: 300px;
     
 }
 
 .text_info{
-    background-color: yellowgreen;
     height: 100px;
     width: 350px;
 }
@@ -283,15 +288,18 @@ h1{
     width: 200px;
 }
 
-.faq{
-    background-color: brown;
+.section_info_collab{
+    background-color: #B4D0E7
 }
+/* .faq{
+    background-color: brown;
+} */
 
 .question{
     width: 100%;
     height: 70px;
-    background-color: grey;
     padding: 10px 0;
+    /* line-height: 50px; */
 }
 
 footer{
@@ -299,7 +307,7 @@ footer{
 }
 
 .bottom_col{
-    background-color: white;
+   
     height: 150px;
     padding: 0 10px;
     width: calc(100% / 5);
