@@ -64,10 +64,6 @@ a{
     padding-bottom: 100px;
 }
 
-/* .Business_plan{
-    padding-top: 50px;
-} */
-
 section{
     padding-top: 50px;
 }
@@ -78,8 +74,30 @@ main{
 
 .container{
     margin: auto;
-    max-width: 70%;
+    max-width: 60%;
     min-height: 400px;
+}
+
+.big_container{
+    min-height: 50px;  
+}
+
+.partner .picture img{
+    width: 80%;
+} 
+
+.mid_container{
+    max-width: 70%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.text{
+    width: 30%; 
+}
+
+.picture{
+    width: 70%;
 }
 
 .button_blue a{
@@ -134,13 +152,23 @@ h1{
 }
 
 .col{  
-    /* min-height: 100px; */
     width: calc(100% / 3 - 10px);
     margin: 10px 5px;
 }
 
-.upper{
+.col_upper{
+    width: calc(100% / 3 - 10px);
+   
+    margin: auto;
     border: 1px solid black;
+    height: 500px;
+}
+
+.row{
+    height: 100px;
+    width: calc(100% - 10px);
+    border: 1px solid black;
+    margin: 10px 5px;
 }
 
 .beginning,.info_plan,.action,.benefits{
@@ -165,6 +193,16 @@ h1{
 .list{
     height: calc(100vw / 3);
     width: calc(100% / 3);
+}
+
+.row_operations{
+    width: 400px;
+    text-align: left;
+}
+
+.collab_pic{
+    width: 50%;
+    height: 50%;
 }
 
 .collab_pic img{
@@ -209,7 +247,15 @@ h1{
     overflow-y: scroll;
 }
 
+.text_info_operations{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 .question{
+    width: 100%;
+    height: 70px;
+    padding: 10px 0;
     border-top: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
 }
@@ -236,80 +282,28 @@ footer{
     width: calc(100% / 5);
     justify-content: center;  
 }
+
 /* debug */
 
-.big_container{
-    min-height: 50px;  
-}
-
-.partner .picture img{
-    width: 60%;
-} 
-
-.mid_container{
-    max-width: 80%;
-    margin: auto;
-    /* min-height: 500px; */
-    padding-top: 50px;
-}
-
-.text{
-    width: 30%;
-    height: 200px;   
-}
-
-.picture{
-    width: 70%;
-    height: 200px;  
-}
-
-
-
-.busines{
-    min-height: 700px;
-}
-
-
-
-.row{
-    height: 100px;
-    width: calc(100% - 10px);
-    border: 1px solid black;
-    margin: 10px 5px;
-}
-
-
-/* .partner{
-    background-color: blue;  
-}
-
-.operations{
-    background-color: gray;
-} */
-
-
-
-/* .list img{
-    color: white;
-} */
 
 
 
 
-.collab_pic{
-    width: 50%;
-    height: 50%;
-    /* border: 1px solid black; */
-}
 
 
 
-.info_collab{
-    height: 300px;
-}
+
+
+
+
+
+
+
+
+
 
 .text_info{
-    height: 100px;
+    color: #61082B;
     width: 350px;
 }
 
@@ -317,17 +311,3 @@ footer{
 
 
 
-
-.question{
-    width: 100%;
-    height: 70px;
-    padding: 10px 0;
-    /* line-height: 50px; */
-}
-
-.bottom_col{ 
-    height: 150px;
-    padding: 0 10px;
-    width: calc(100% / 5);
-    /* justify-content: center;   */
-}
