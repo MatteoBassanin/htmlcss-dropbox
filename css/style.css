@@ -69,6 +69,12 @@ main{
     padding-top: 50px;
 }
 
+.container{
+    margin: auto;
+    max-width: 70%;
+    min-height: 400px;
+}
+
 .button_blue a{
     background-color: blue;
     color: white;
@@ -134,6 +140,19 @@ h1{
     margin-top: 10px;
 }
 
+.little{
+    width: 100%;
+}
+
+.list{
+    height: calc(100vw / 3);
+    width: calc(100% / 3);
+}
+
+.collab_pic img{
+    width: 50%;
+}
+
 #green{
     background-color: #A2D39B;
     border: 10px solid  #cef3c9;
@@ -167,6 +186,11 @@ h1{
     background-color: yellow;
 }
 
+.description{  
+    background-color: #F5F5F5;
+    overflow-y: scroll;
+}
+
 .question{
     border-top: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
@@ -180,11 +204,23 @@ h1{
     font-weight: bolder;
 }
 
+.section_info_collab{
+    background-color: #B4D0E7
+}
 
+footer{
+    background-color: black;
+}
+
+.bottom_col{ 
+    height: 150px;
+    padding: 0 10px;
+    width: calc(100% / 5);
+    justify-content: center;  
+}
 /* debug */
 
 .big_container{
-    background-color: blueviolet;
     min-height: 50px;  
 }
 
@@ -208,19 +244,13 @@ h1{
     height: 200px;  
 }
 
-.container{
-    margin: auto;
-    max-width: 70%;
-    min-height: 400px;
-}
+
 
 .busines{
-    background-color: cadetblue;
     min-height: 700px;
 }
 
-.col{
-    background-color: red;
+.col{  
     min-height: 100px;
     width: calc(100% / 3 - 10px);
     border: 1px solid black;
@@ -228,7 +258,6 @@ h1{
 }
 
 .row{
-    background-color: red;
     height: 100px;
     width: calc(100% - 10px);
     border: 1px solid black;
@@ -236,45 +265,33 @@ h1{
 }
 
 
-.partner{
+/* .partner{
     background-color: blue;  
 }
 
 .operations{
     background-color: gray;
-}
+} */
 
-.little{
-    width: 100%;
-}
 
-.list{
-    background-color: hotpink;
-    height: calc(100vw / 3);
-    width: calc(100% / 3);
-}
 
-.description{
-    
-    background-color: #F5F5F5;
-    overflow-y: scroll;
-}
+/* .list img{
+    color: white;
+} */
+
+
 
 
 .collab_pic{
     width: 50%;
     height: 50%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
-.collab_pic img{
-    width: 50%;
-}
+
 
 .info_collab{
-    ;
     height: 300px;
-    
 }
 
 .text_info{
@@ -282,18 +299,10 @@ h1{
     width: 350px;
 }
 
-.button{
-    background-color: rgb(106, 0, 255);
-    height: 100px;
-    width: 200px;
-}
 
-.section_info_collab{
-    background-color: #B4D0E7
-}
-/* .faq{
-    background-color: brown;
-} */
+
+
+
 
 .question{
     width: 100%;
@@ -302,15 +311,9 @@ h1{
     /* line-height: 50px; */
 }
 
-footer{
-    background-color: black;
-}
-
-.bottom_col{
-   
+.bottom_col{ 
     height: 150px;
     padding: 0 10px;
     width: calc(100% / 5);
-    justify-content: center;
-    border: 1px solid red;
+    /* justify-content: center;   */
 }
