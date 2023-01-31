@@ -22,6 +22,10 @@ body{
     justify-content: space-between;
 }
 
+.center_center{
+    align-items: center;
+    justify-content: center;
+}
 
 .top{
     position: fixed;
@@ -129,6 +133,39 @@ h1{
     justify-content: space-between;
     margin-top: 10px;
 }
+
+#green{
+    background-color: #A2D39B;
+    border: 10px solid  #cef3c9;
+}
+
+.brown{
+    background-color: #61082B;
+}
+
+.lightblue{
+    background-color: #0093CE;
+}
+
+.lessred{
+    background-color: #FF1E1C;
+}
+
+.morered{
+    background-color: #b40b08;
+}
+
+.grey{
+    background-color:  #B4D0E7;
+}
+
+.darkblue{
+    background-color: #0D2481;
+}
+
+.yellow{
+    background-color: yellow;
+}
 /* debug */
 
 .big_container{
@@ -213,16 +250,19 @@ h1{
 
 .description{
     
-    background-color: navy;
+    background-color: #F5F5F5;
     overflow-y: scroll;
 }
 
 
 .collab_pic{
     width: 50%;
-    background-color: aqua;
     height: 50%;
     border: 1px solid black;
+}
+
+.collab_pic img{
+    width: 50%;
 }
 
 .info_collab{
