@@ -221,6 +221,17 @@ h1{
     filter:invert(1)
 }
 
+.description img{
+    width: 40%;
+    margin: 20px;
+}
+
+.description p ,.description div{
+    font-size: 12px;
+    font-weight: 100;
+    margin: 20px;
+}
+
 #green{
     background-color: #A2D39B;
     border: 10px solid  #cef3c9;
