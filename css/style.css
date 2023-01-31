@@ -201,14 +201,35 @@ h1{
     width: 100%;
 }
 
+.text_little p{
+    font-size: 12px;
+    margin: 20px 0;
+    width: 200px
+}
+
+.text{
+    padding-top:40px;
+}
+
 .list{
     height: calc(100vw / 3);
     width: calc(100% / 3);
 }
 
 .row_operations{
-    width: 400px;
+    width: 430px;
     text-align: left;
+    padding: 100px 0;
+}
+
+.row_operations h2{
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+
+.row_operations a{
+    text-decoration: underline;
+    font-size: 13px;
 }
 
 .collab_pic{
