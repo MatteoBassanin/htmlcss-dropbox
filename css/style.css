@@ -127,10 +127,15 @@ a{
 }
 
 .button.white a{
-    border: 1px solid black;
+    
     color: black;
     background-color: white;
 }
+
+.button.borded a{
+    border: 1px solid black;
+}
+
 
 h1{
     font-size: 63px;
