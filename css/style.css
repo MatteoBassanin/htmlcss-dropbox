@@ -111,16 +111,18 @@ a{
     width: 70%;
 }
 
-.button_blue a{
-    background-color:#0061FF;
-    color: white;
+.button a{
     padding: 5px 15px;
 }
 
-.button_white a{
+.button.blue a{
+    background-color:#0061FF;
+    color: white;   
+}
+
+.button.white a{
     border: 1px solid black;
     color: black;
-    padding: 5px 15px;
     background-color: white;
 }
 
@@ -416,8 +418,15 @@ footer{
     padding: 0 0 15px;
 }
 
+/* bonus */
 
+li.link:hover {
+    border-bottom: 2px solid #0061FF;
+}
 
+.button:hover {
+    filter: opacity(0.5);
+}
 
 
 
