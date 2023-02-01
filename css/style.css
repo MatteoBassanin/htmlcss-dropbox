@@ -8,10 +8,6 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-p,h5,h4{
-    /* font-size: 16px; */
-}
-
 .flex{
     display: flex;
     flex-wrap: wrap;
@@ -65,7 +61,6 @@ ul{
 
 .link a{
     color: black;
-    /* font-size: 16px; */
     margin: 10px;
 }
 
@@ -114,7 +109,6 @@ a{
 
 .big_text{
     font-weight: 100;
-    /* font-size: 16px; */
 }
 
 .picture{
