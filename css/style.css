@@ -22,6 +22,10 @@ body{
     justify-content: space-between;
 }
 
+.space_between{
+    justify-content: space-between;
+}
+
 .center_center{
     align-items: center;
     justify-content: center;
@@ -34,6 +38,11 @@ body{
     z-index: 50;
     background-color: white;
     width: 100%;
+    line-height: 50px;
+}
+
+.logo img{
+    width: 70%;
 }
 
 ul{
@@ -41,7 +50,7 @@ ul{
 }
 
 .logo i{
-    color: blue;
+    color: #0061FF;
 }
 
 .logo a{
@@ -109,7 +118,7 @@ main{
 }
 
 .button_blue a{
-    background-color: blue;
+    background-color:#0061FF;
     color: white;
     padding: 5px 15px;
 }
@@ -148,7 +157,7 @@ i.fa-solid.fa-arrow-down{
 }
 
 .colored{
-    border: 4px solid blue;
+    border: 4px solid #0061FF;
 }
 
 .simple{
@@ -186,7 +195,25 @@ i.fa-solid.fa-arrow-down{
 .col_upper{
     width: 30%;
     border: 1px solid black;
-    height: 500px;
+    height: 600px;
+}
+
+.details_info li{
+    padding: 5px 0;
+}
+
+.short{
+    margin-top: 20px;
+    width: 20%;
+    background-color: grey;
+}
+
+i.fa-solid.fa-check{
+    color: #0061FF;
+}
+
+.description hr{
+    margin: 20px;
 }
 
 .row{
@@ -243,7 +270,7 @@ i.fa-solid.fa-arrow-down{
     font-size: 30px;
 }
 
-.row_operations a{
+.row_operations a,.buy a{
     text-decoration: underline;
     font-size: 13px;
 }
