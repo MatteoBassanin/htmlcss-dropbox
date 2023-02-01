@@ -168,18 +168,16 @@ h1{
 }
 
 .col_upper{
-    width: calc(100% / 3 - 10px);
-   
-    margin: auto;
+    width: 30%;
     border: 1px solid black;
     height: 500px;
 }
 
 .row{
     height: 100px;
-    width: calc(100% - 10px);
+    width: 100%;
     border: 1px solid black;
-    margin: 10px 5px;
+    margin: 10px 0;
 }
 
 .beginning,.info_plan,.action,.benefits{
