@@ -8,6 +8,10 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+p,h5,h4,h3{
+    font-size: 16px;
+}
+
 .flex{
     display: flex;
     flex-wrap: wrap;
@@ -226,7 +230,7 @@ i.fa-solid.fa-check{
 }
 
 .row{
-    height: 150px;
+    height: 200px;
     width: 100%;
     border: 1px solid lightgray;
     margin: 10px 0;
@@ -234,6 +238,7 @@ i.fa-solid.fa-check{
 
 .more_info_left{
     padding-left: 10px;
+    width: 500px;
 }
 
 .row h3{
