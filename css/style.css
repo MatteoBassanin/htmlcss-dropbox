@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .flex{
@@ -103,7 +103,7 @@ a{
 .text{
     width: 30%;
     position: relative;
-    bottom: 95px;
+    bottom: 75px;
     left: 10px;
     padding-top: 70px;
 }
@@ -141,6 +141,8 @@ h1{
     font-size: 63px;
     text-align: center;
     padding-bottom: 40px;
+    text-align: left;
+    font-weight: bolder;
 }
 
 .text p {
@@ -202,7 +204,7 @@ i.fa-solid.fa-arrow-down{
 .col_upper{
     width: 30%;
     border: 1px solid lightgray;
-    height: 600px;
+    height: 650px;
 }
 
 .details_info li{
