@@ -8,8 +8,8 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-p,h5,h4,h3{
-    font-size: 16px;
+p,h5,h4{
+    /* font-size: 16px; */
 }
 
 .flex{
@@ -65,7 +65,7 @@ ul{
 
 .link a{
     color: black;
-    font-size: 16px;
+    /* font-size: 16px; */
     margin: 10px;
 }
 
@@ -91,7 +91,7 @@ a{
 }
 
 .partner .picture img{
-    width: 90%;
+    width: 100%;
 } 
 
 .mid_container{
@@ -114,7 +114,7 @@ a{
 
 .big_text{
     font-weight: 100;
-    font-size: 16px;
+    /* font-size: 16px; */
 }
 
 .picture{
@@ -259,7 +259,6 @@ i.fa-solid.fa-check{
 }
 
 .beginning,.info_plan,.action,.benefits{
-    font-size: 16px;
     margin: 20px 0 0 10px;
 }
 
@@ -268,7 +267,6 @@ i.fa-solid.fa-check{
 }
 
 .info{
-    font-size: 10px;
     justify-content: space-between;
     margin-top: 10px;
 }
@@ -281,11 +279,10 @@ i.fa-solid.fa-check{
 .text_little{
     position: relative;
     top: -34px;
-    left: 0px;
+    left: 20px;
 }
 
 .text_little p{
-    font-size: 16px;
     margin: 20px 0;
     width: 200px
 }
@@ -308,7 +305,6 @@ i.fa-solid.fa-check{
 
 .row_operations a,.buy a{
     text-decoration: underline;
-    font-size: 16px;
 }
 
 .collab_pic{
@@ -327,7 +323,6 @@ i.fa-solid.fa-check{
 }
 
 .description p ,.description div{
-    font-size: 16px;
     font-weight: 100;
     margin: 20px;
 }
@@ -402,7 +397,6 @@ i.fa-solid.fa-check{
 
 .language{
     margin-top: 150px;
-    font-size: 16px;
     color: grey;
 }
 
@@ -432,7 +426,6 @@ footer{
 }
 
 .bottom_col li {
-    font-size: 16px;
     padding: 0 0 15px;
 }
 
