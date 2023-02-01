@@ -82,17 +82,26 @@ main{
 }
 
 .partner .picture img{
-    width: 80%;
+    width: 90%;
 } 
 
 .mid_container{
     max-width: 70%;
     margin: auto;
-    padding-top: 50px;
+    /* padding-top: 50px; */
+}
+
+.background_container > .mid_container{
+    position: relative;
+    top: 75px;
 }
 
 .text{
-    width: 30%; 
+    width: 30%;
+    position: relative;
+    bottom: 80px;
+    left: 10px;
+    padding-top: 70px;
 }
 
 .picture{
@@ -102,27 +111,34 @@ main{
 .button_blue a{
     background-color: blue;
     color: white;
-    padding: 5px;
+    padding: 5px 15px;
 }
 
 .button_white a{
     border: 1px solid black;
     color: black;
-    padding: 5px;
+    padding: 5px 15px;
     background-color: white;
 }
 
 h1{
     font-size: 63px;
     text-align: center;
+    padding-bottom: 40px;
 }
 
 .text p {
-    margin-bottom: 20px;
+    padding: 24px 0;
+}
+
+i.fa-solid.fa-arrow-down{
+    padding-top: 20px;
+    color: black;
+    font-size: 30px;
 }
 
 .picture img{
-    width: 90%;
+    width: 100%;
 }
 
 .circle{
@@ -199,14 +215,16 @@ h1{
     width: 100%;
 }
 
+.text_little{
+    position: relative;
+    top: -34px;
+    left: 0px;
+}
+
 .text_little p{
     font-size: 12px;
     margin: 20px 0;
     width: 200px
-}
-
-.text{
-    padding-top:40px;
 }
 
 .list{
