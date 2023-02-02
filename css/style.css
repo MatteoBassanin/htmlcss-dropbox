@@ -107,8 +107,16 @@ a{
     padding-top: 70px;
 }
 
-.big_text{
-    font-weight: 100;
+p.big_text{
+    padding: 0 0 40px;
+}
+
+.tiny_text{
+    padding-top: 30px;
+}
+
+.text.button_blue{
+    margin: 10px 0;
 }
 
 .picture{
@@ -134,17 +142,12 @@ a{
     border: 1px solid black;
 }
 
-
 h1{
     font-size: 63px;
     text-align: center;
     padding-bottom: 40px;
     text-align: left;
     font-weight: bolder;
-}
-
-.text p {
-    padding: 24px 0;
 }
 
 i.fa-solid.fa-arrow-down{
@@ -200,7 +203,7 @@ i.fa-solid.fa-arrow-down{
 }
 
 .col_upper{
-    width: 32%;
+    width: 30%;
     border: 1px solid lightgray;
     height: 800px;
 }
