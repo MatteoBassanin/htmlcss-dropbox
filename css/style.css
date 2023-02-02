@@ -448,6 +448,10 @@ li.link:hover {
     filter: opacity(0.5);
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 .hidden{
     display: none;
     padding-top: 10px;
