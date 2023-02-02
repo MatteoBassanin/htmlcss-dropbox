@@ -379,10 +379,14 @@ i.fa-solid.fa-check{
 
 .question{
     width: 100%;
-    height: 70px;
+    min-height: 70px;
     padding: 10px 0;
     border-top: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
+}
+
+.question h3,.question p {
+    width: 90%;
 }
 
 .bottom_col li a,.language{
@@ -441,16 +445,18 @@ li.link:hover {
     filter: opacity(0.5);
 }
 
-/* .hidden{
+.hidden{
     display: none;
+    padding-top: 10px;
 }
 
-.center_space:hover{
+.question:hover .hidden{
     display: block;
-    content: "loremdsfnjfjfsd";
-} */
+}
 
-
+.question:hover .visible{
+    display:none;
+}
 
 
 
